@@ -4,8 +4,7 @@ Live Code: https://kimflores-yelp.netlify.app
 
 # How It's Made:
 ### Tech used: 
-HTML & CSS
-My task was to replicate the Yelp homepage with HTML and CSS. I was given a screenshot as reference and implemented media queries for responsiveness. 
+My task was to replicate the Yelp homepage with **HTML** and **CSS**. I was given a screenshot as reference and implemented media queries for responsiveness. 
 
 ![Yelp Final](yelpimg.png)
 
@@ -26,3 +25,4 @@ JWLI: https://kimflores-jwli.netlify.app
 
 Level Ground: https://kimflores-levelground.netlify.app
 
+Venture Beat: https://kimflores-venturebeat.netlify.app
