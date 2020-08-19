@@ -19,10 +19,10 @@ Applying responsiveness to the site with media queries was exciting to see what 
 # Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-BBC: https://kimflores-bbc.netlify.app
+BBC: https://github.com/Kim-Flores/
 
-JWLI: https://kimflores-jwli.netlify.app
+Venture Beat: https://github.com/Kim-Flores/Venture-Beat
 
-Level Ground: https://kimflores-levelground.netlify.app
+Level Ground: https://github.com/Kim-Flores/Level-ground
 
-Venture Beat: https://kimflores-venturebeat.netlify.app
+JWLI: https://github.com/Kim-Flores/JWLI
