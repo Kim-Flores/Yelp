@@ -1,0 +1,461 @@
+*{
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Arial";
+  margin: 0;
+}
+
+html{
+  font-size: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* NAVIGATION */
+
+nav li,.homepageNav li, .cityNav li{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.homepageNav, .navTop{
+  font-weight: bold;
+  padding-top: 2%;
+}
+.homepageNav, .section2, h2, .inputs, .photo-credit{
+  text-align: center;
+}
+
+.navTop a, .homepageNav a{
+  color: #FFF;
+}
+/*----INPUTS----*/
+
+.navRight{
+  float:right;
+  margin-right: 4%;
+}
+
+.search-bar input{
+  width: 25%;
+  height: 35px;
+  border-radius:2px;
+}
+
+ button.search-btn{
+   width: 50px;
+   height: 35px;
+   color: #FFF;
+   border-radius: 2px;
+ }
+
+.searchBtn{
+  color: #FFF;
+  background-color: #d32323;
+  border: none;
+  width: 3%;
+  height: 33px;
+}
+
+.input-labels{
+  position:absolute;
+}
+
+.yelp{
+  width:150px;
+  display: block;
+  margin-left: 44%;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/* SECTION 1 */
+
+.signUp{
+  border: 1px solid #FFF;
+  background: none;
+  color: #FFF;
+  height: 31px;
+  width: 131%;
+  margin: -10% 0 0 -43%;
+}
+.section1{
+  height: 600px;
+  font-size: 1.5rem;
+  background: url('../images/bakery2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.photoCredit{
+  margin: 18% 0 0 42%;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.photoCredit a{
+  color: #FFF;
+}
+
+/*SECTION 2*/
+
+.section2{
+  height: 150px;
+}
+
+.yelpCity{
+  margin: 3% 0;
+  color: #d32323;
+  font-size: 3rem;
+}
+
+.cityNav a{
+  color: #7D7977;
+  font-size: 1.5rem;
+}
+
+/*SECTION 3*/
+
+.section3{
+  height: 450px;
+}
+
+.businessTitle{
+  font-size: 1.5rem;
+  color: #d32323;
+  margin-bottom: 2%;
+}
+.review{
+  float: left;
+  width: 29%;
+  height: 353px;
+  margin: 0 0 2% 4%;
+  border: 1px solid #F3F3F3;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.restReview{
+  width: 100%;
+}
+
+span{
+  position: relative;
+  bottom: 25px;
+}
+
+.fire{
+  color: orange;
+}
+
+.price{
+  padding-inline-start: 0;
+  font-size: 1.2rem;
+  padding-left: 4%;
+  line-height: 18px;
+}
+
+.price2{
+  padding-bottom: 12px;
+}
+
+.review h3{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #1573BB;
+}
+
+.reviewGroup{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.bottomPromo{
+  clear: both;
+  font-size: 1.2rem;
+}
+
+.bottomPromo a{
+  color:#1A73BB;
+}
+
+.bottomProm0 h4{
+  margin-top: 2%;
+}
+
+/*SECTION 4*/
+.section4{
+  clear:left;
+  height: 250px;
+  background-color:#F5F5F5;
+}
+
+.section4 h2{
+  font-size: 1.7rem;
+  color:#d32323;
+  padding-top: 2%;
+}
+.categories li{
+  display:inline-block;
+  margin: 2% 2% 0 4%;
+  width: 14%;
+  height: 110px;
+  background-color: #FFF;
+  border: 1px solid #E7E7E7;
+}
+
+.categories{
+  margin: 2% 0 0 11%;
+}
+.categories img{
+  width: 40%;
+  margin-left: 29%;
+  margin-top: 2%;
+}
+
+.categories a{
+  color: #3E3B3A;
+  font-weight: bold;
+}
+figcaption{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.stars{
+  width: 100px;
+}
+
+.section3{
+  text-align: center;
+}
+
+/* hidden */
+
+.burger{
+  display: none;
+}
+
+
+
+
+
+
+/*** MEDIA QUERY 1**/
+
+
+@media only screen and (max-width:650px){
+
+
+  /* SECTION1 */
+
+  .section1{
+    background-image: none;
+    opacity: 1;
+    height: 275px;
+
+  }
+
+  header{
+    background-color: #D32323;
+    height: 70px;
+  }
+
+  .navTop, .inputs, .photoCredit{
+    display: none;
+  }
+
+  .search-bar{
+    display: none;
+  }
+
+  .burger{
+    display: block;
+    color: #FFF;
+    text-align: right;
+    font-size: 3rem;
+    padding-top: 18px;
+  }
+
+  .yelp{
+    margin: 0;
+    width: 43%;
+    margin: 5% auto;
+  }
+
+/* section 2 */
+  .section2 li{
+    display: none;
+  }
+
+  #moreSearch{
+    display: block;
+  }
+
+/* section 3 */
+
+  .section3{
+    height: 1023px;
+  }
+
+  .review{
+    width: 100%;
+    height: auto;
+  }
+
+  .reviewGroup{
+    width: 45%;
+  }
+
+/* section 4 */
+
+  .section4{
+    padding-top: 12px;
+  }
+
+  .section4 h2{
+    padding-top: 50px;
+  }
+
+  .categories li{
+    width: 24%;
+    height: 84px;
+    margin: 0;
+  }
+
+  .categories{
+    margin: 0;
+    padding: 2% 0 0 2%;
+  }
+
+}
+
+/* MEDIA QUERY 2 */
+
+@media (min-width:651px) and (max-width:850px){
+
+  /* SECTION 1 */
+  .signUp{
+    margin: -10% 0 0 -23%;
+  }
+
+  .searchBtn{
+    width: 5%;
+  }
+
+  .search-bar input{
+    width: 40%;
+  }
+
+  .photoCredit{
+    padding: 39% 0 0 43%;
+    margin: 0;
+  }
+
+  /* SECTION 2 */
+
+
+
+
+  /* SECTION 3 */
+
+  .section3{
+    height: 1120px;
+
+  }
+
+  .review{
+    width: 100%;
+    height: auto;
+  }
+
+  .reviewGroup{
+    width: 40%;
+    margin-top: 3%;
+  }
+
+
+  /* SECTION 4 */
+
+  .section4 h2{
+    margin-top: 2%;
+    padding-top: 5%;
+  }
+
+  .categories li{
+    width: 23%;
+    height: 100px;
+    margin: 0;
+  }
+
+  .categories{
+    margin: 0;
+    padding: 9% 0 0 2%;
+  }
+
+
+
+}
+
+
+/* MEDIA QUERY 3 */
+
+@media (min-width: 851px) and (max-width: 1000px){
+
+
+
+/* SECTION 1 */
+
+.signUp{
+  margin: -10% 0 0 -23%;
+}
+
+.searchBtn{
+  width: 5%;
+}
+
+.search-bar input{
+  width: 40%;
+}
+
+.photoCredit{
+  padding: 33% 0 0 43%;
+  margin: 0;
+}
+
+/* SECTION 2 */
+
+  /* SECTION 3 */
+
+
+  /* SECTION 4 */
+
+  .section4 h2{
+    margin-top: 2%;
+    padding-top: 5%;
+  }
+
+  .categories li{
+    width: 23%;
+    height: 100px;
+    margin: 0;
+  }
+
+  .categories{
+    padding: 6% 0 0 4%;
+    margin: 0% 0 0 4%;
+  }
+
+  .categories img {
+    margin: 0;
+    width: 68%;
+    padding-left: 29%;
+  }
+
+
+
+
+}
