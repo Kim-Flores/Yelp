@@ -19,7 +19,7 @@ Applying responsiveness to the site with media queries was exciting to see what 
 # Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-BBC: https://github.com/Kim-Flores/
+BBC: https://github.com/Kim-Flores/BBC
 
 Venture Beat: https://github.com/Kim-Flores/Venture-Beat
 
